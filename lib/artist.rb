@@ -28,4 +28,4 @@ class Artist
     @@total_songs
   end
 
-end 
+end
