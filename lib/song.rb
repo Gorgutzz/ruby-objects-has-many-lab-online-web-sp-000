@@ -8,6 +8,8 @@ class Song
   end
 
   def all
-    @@all = all
+    @all = all
+  end
+    
 
 end
