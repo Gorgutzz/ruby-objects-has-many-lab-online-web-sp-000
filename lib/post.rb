@@ -12,9 +12,9 @@ class  Post
     @@all
   end
 
-  def artist_name
-    if self.artist
-      self.artist_name
+  def author_name
+    if self.author
+      self.author_name
     else
       return nil
     end
