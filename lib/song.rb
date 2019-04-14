@@ -7,4 +7,7 @@ class Song
     @name = name
   end
 
+  def all
+    @@all = all
+
 end
