@@ -13,12 +13,12 @@ class Author
     @@total_posts += 1
   end
 
-  def songs
-    @songs
+  def posts
+    @posts
   end
 
-  def add_song_by_name(name)
-    song = Song.new(name)
+  def add_post_by_title(title)
+    post = Post.new(title)
     @songs << song
     song.artist = self
     @@total_songs += 1
